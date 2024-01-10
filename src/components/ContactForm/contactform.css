@@ -1,0 +1,265 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    padding: 2rem 10rem;
+    border-radius: 10px;
+    max-width: fit-content;
+
+    background-color: #191919;
+}
+
+.contactform h2 {
+    text-align: center;
+    color: var(--color-projectheader);
+    font-family: var(--font-links);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    padding: 1rem;
+}
+
+.contactform__btn {
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0;
+    margin-top: 1rem;
+    border-radius: 10px;
+    background: var(--color-bg-diff);
+    box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.65);
+    border: none;
+
+    font-family: var(--font-base);
+    font-size: 24px;
+    line-height: 36px;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--color-header);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.contactform__btn:focus {
+    outline: 0;
+}
+
+.contactform__btn:active {
+    transform: scale(0.98);
+}
+
+.contactform__inp {
+    position: relative;
+    margin: 20px 0 40px;
+    width: 300px;
+}
+
+.contactform__inp input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px #FFF solid;
+    display: block;
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 18px;
+    color: #FFF;
+}
+
+.contactform__inp input:focus,
+.contactform__inp input:valid {
+    outline: 0;
+    border-bottom-color: #9a9a9a;
+}
+
+.contactform__inp label {
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    pointer-events: none;
+}
+
+.contactform__inp label span {
+    display: inline-block;
+    font-size: 18px;
+    min-width: 5px;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.contactform__inp input:focus + label span,
+.contactform__inp input:valid + label span {
+    color: #9a9a9a;
+    transform: translateY(-30px);
+}
+
+@media screen and (min-width: 2000px) {
+    .contactform {
+        padding: 4rem 20rem;
+        gap: 3rem;
+    }
+    .contactform__inp {
+        width: 480px;
+        margin: 20px 0 50px;
+    }
+
+    .contactform__inp input {
+        padding: 2rem 0;
+        font-size: 26px;
+    }
+
+    .contactform__btn {
+        margin-top: 3rem;
+    }
+
+    .contactform__inp label span {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .contactform {
+        padding: 2rem 8rem;
+    }
+
+    .contactform h2 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .contactform {
+        padding: 2rem 6rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contactform {
+        padding: 2rem 5rem;
+    }
+    
+    .contactform h2 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .contactform {
+        padding: 2rem 4rem;
+    }
+
+    .contactform h2 {
+        font-size: 28px;
+    }
+
+     .contactform__inp {
+        width: 260px;
+    }
+
+    .contactform__inp input {
+        font-size: 18px;
+    }
+
+    .contactform__btn {
+        font-size: 20px;
+    }
+
+    .contactform__inp label span {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .contactform {
+        padding: 1.5rem 3rem;
+        gap: 1.5rem;
+    }
+
+    .contactform h2 {
+        font-size: 24px;
+    }
+
+    .contactform__inp {
+        margin-top: 0;
+    }
+
+    .contactform__inp input {
+        font-size: 16px;
+    }
+
+    .contactform__inp label span {
+        font-size: 14px;
+    }
+
+    .contactform__btn {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .contactform {
+        padding: 1rem 2rem;
+    }
+
+    .contactform h2 {
+        font-size: 20px;
+    }
+
+    .contactform__inp {
+        margin-top: 0.5rem;
+        width: 240px;
+    }
+
+    .contactform__inp input {
+        font-size: 14px;
+    }
+
+    .contactform__inp label span {
+        font-size: 12px;
+    }
+
+    .contactform__btn {
+        padding: 0.5rem;
+        font-size: 16px;
+        margin-top: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .contactform {
+        padding: 0.5rem 1.5rem;
+    }
+
+    .contactform h2 {
+        font-size: 18px;
+    }
+
+    .contactform__inp {
+        margin-top: 0.5rem;
+        width: 220px;
+    }
+
+    .contactform__inp input {
+        font-size: 12px;
+    }
+
+    .contactform__inp label span {
+        font-size: 12px;
+    }
+
+    .contactform__btn {
+        padding: 0.2rem;
+        font-size: 14px;
+        margin-top: 0;
+    }
+}

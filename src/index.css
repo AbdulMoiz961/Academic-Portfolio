@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Serif+4:wght@400;600&display=swap');
+
+:root {
+    --font-links: 'Playfair Display', serif;
+    --font-base: 'Source Serif 4', serif;
+
+    --color-bg: #131313;
+    --color-bg-diff: #1d1d1d;
+    --color-links: #7D7D7D;
+    --color-header: #ABABAB;
+    --color-paragraph: #7D7D7D;
+    --color-cardsection: #1A1A1A;
+    --color-projectheader: #9A9A9A;
+    --color-outline: #777777;
+
+    --button-gradient: linear-gradient(270deg, rgba(190, 190, 190, 0.00) 0%, rgba(123, 123, 123, 0.12) 0%, rgba(62, 62, 62, 0.48) 100%);
+}
