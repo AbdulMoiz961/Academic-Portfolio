@@ -5,7 +5,7 @@ import { SectionHeader, ContactForm, SocialIcons } from '../../components'
 
 const Contact = () => {
   return (
-    <div className='portfolio__contact-container'>
+    <div className='portfolio__contact-container' id='contact'>
       <SectionHeader title="Contact" />
       <div className='contact__div'>
         <ContactForm />
