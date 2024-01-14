@@ -39,7 +39,7 @@ const ContactForm = () => {
 
         <h2>You Can Email Me</h2>
 
-        <form action='https://formsubmit.co/shabdulmoiz96@gmail.com' method='POST'>
+        <form action='https://formsubmit.co/fc80954601b1792f829204bae5137826' method='POST'>
           <div className='contactform__inp'>
             <input
               type="text"
