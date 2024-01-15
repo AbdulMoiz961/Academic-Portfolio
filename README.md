@@ -2,7 +2,7 @@
 Designed and developed my personal academic portfolio using React.js and CSS.
 
 ## Live Demo
-![Academic Portfolio Website Screenshot](public/ScreenShot/screenshot.png)
+![Academic Portfolio Website Screenshot](public/ScreenShot/Screenshot.png)
 
 Explore the Website [here](https://abdu1-moiz.netlify.app/).
 
