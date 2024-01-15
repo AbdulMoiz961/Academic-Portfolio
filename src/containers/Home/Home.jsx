@@ -5,6 +5,23 @@ import { HeaderImg } from '../../assets'
 
 import './home.css'
 
+const DownloadButton = () => {
+  const downloadLink = "https://github.com/AbdulMoiz961/Academic-Portfolio/files/13942486/CV.pdf";
+
+  const handleDownload = () => {
+    window.open(downloadLink, "_blank");
+  };
+
+  return (
+    <button type='button' className='download__button' onClick={handleDownload}>
+      Download 
+      <MdOutlineKeyboardDoubleArrowDown 
+        size={"1.7rem"}
+      />
+    </button>
+  );
+};
+
 const Home = () => {
   return (
     <div className='portfolio__header' id='home'>
@@ -17,12 +34,8 @@ const Home = () => {
         <p className='paragraph__text'>
           You can download my CV from here.
         </p>
-        <button type='button' className='download__button'>
-          Download 
-          <MdOutlineKeyboardDoubleArrowDown 
-            size={"1.7rem"}
-          />
-        </button>
+
+        <DownloadButton />    
       </div>
 
       <div className='portfolio__header-img'>
