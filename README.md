@@ -1,10 +1,10 @@
-# NexGen CyberShield
-Welcome to the NexGen CyberShield Showcase, a static website project developed with React.js to highlight my front-end development skills.
+# Academic Portfolio
+Designed and developed my personal academic portfolio using React.js and CSS.
 
 ## Live Demo
-![NexGen CyberShield Showcase Screenshot](public/ScreenShot/NexGenCybershield_ss.png)
+![Academic Portfolio Website Screenshot](public/ScreenShot/screenshot.png)
 
-Explore the live demo [here](https://nexgen-cybershield.surge.sh/).
+Explore the Website [here](https://abdu1-moiz.netlify.app/).
 
 ## Technologies Used
 - React.js
@@ -17,13 +17,13 @@ Explore the live demo [here](https://nexgen-cybershield.surge.sh/).
 - Responsive layout for seamless viewing on various devices
 - Integration of React.js for dynamic and interactive user experiences
 
-Feel free to explore the website and navigate through its pages to get a glimpse of the cybersecurity solutions offered by NexGen CyberShield. If you have any feedback or questions, don't hesitate to [contact me](mailto:shabdulmoiz96@gmail.com).
+Feel free to explore the website and navigate through its pages. If you have any feedback or questions, don't hesitate to [contact me](mailto:shabdulmoiz96@gmail.com).
 
 ## How to Run Locally
-1. Clone this repository: `git clone https://github.com/AbdulMoiz961/Static-NexGen_Cybershield.git`
-2. Navigate to the project directory: `cd Static-NexGen_Cybershield`
+1. Clone this repository: `git clone https://github.com/AbdulMoiz961/Academic-Portfolio.git`
+2. Navigate to the project directory: `cd Academic-Portfolio`
 3. Install dependencies: `npm install`
-4. Start the development server: `npm start`
+4. Start the development server: `npm run dev`
 
 ---
 
