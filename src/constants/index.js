@@ -125,4 +125,13 @@ export const projects = [
         demo: 'https://bm0-app0.surge.sh/',
         repository: 'https://github.com/AbdulMoiz961/Static-BM_App',
     },
+    {
+        id: 4,
+        title: 'TO-DO List App',
+        description: "Developed a todo list web application utilizing React.js, JavaScript, and CSS. The project emphasizes efficient task management, enabling users to add, remove, and edit tasks with seamless accessibility. Tasks are stored locally, providing persistence across sessions for enhanced user experience.",
+        image: BM_App,
+        tags: [ 'JavaScript', 'CSS', 'React.js', 'Node.js', ],
+        demo: 'https://abdu1-moiz-tm.netlify.app/',
+        repository: 'https://github.com/AbdulMoiz961/todo-list',
+    },
 ]
