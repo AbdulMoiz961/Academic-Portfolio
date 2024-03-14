@@ -1,5 +1,5 @@
 import { JavaScript, HTMLCSS, React, WebDesignLogos, NodeJS, Java, Python, WordPress, GitGithub } from "../assets"
-import { NexGen_Cybershield, BM_App, Restaurant, CodeSwift } from '../assets'
+import { NexGen_Cybershield, BM_App, Todo_App, CodeSwift } from '../assets'
 
 export const navLinks = [
     {
@@ -107,17 +107,17 @@ export const projects = [
         demo: 'https://codeswift.vercel.app/',
         repository: 'https://github.com/AbdulMoiz961/Static-CodeSwift',
     },
+    // {
+    //     id: 2,
+    //     title: 'Restaurant Website',
+    //     description: "Designed and developed a static Restaurant Website, a fictional establishment, with a strong emphasis on front-end development, highlighting expertise in React.js and CSS. The project showcases a captivating layout and design, inviting visitors to explore a virtual culinary experience.",
+    //     image: Restaurant,
+    //     tags: [ 'JavaScript', 'CSS', 'React.js', 'Node.js' ],
+    //     demo: 'https://l-epicurean-restaurant.surge.sh/',
+    //     repository: 'https://github.com/AbdulMoiz961/Static-Restaurant_Website',
+    // },
     {
         id: 2,
-        title: 'Restaurant Website',
-        description: "Designed and developed a static Restaurant Website, a fictional establishment, with a strong emphasis on front-end development, highlighting expertise in React.js and CSS. The project showcases a captivating layout and design, inviting visitors to explore a virtual culinary experience.",
-        image: Restaurant,
-        tags: [ 'JavaScript', 'CSS', 'React.js', 'Node.js' ],
-        demo: 'https://l-epicurean-restaurant.surge.sh/',
-        repository: 'https://github.com/AbdulMoiz961/Static-Restaurant_Website',
-    },
-    {
-        id: 3,
         title: 'Online Banking Website',
         description: "Developed a static website with a strong focus on front-end development, employing React.js and Tailwind CSS. The project highlights the engaging layout and design of a fictional Online Banking App, offering a seamless and intuitive user experience.",
         image: BM_App,
@@ -126,10 +126,10 @@ export const projects = [
         repository: 'https://github.com/AbdulMoiz961/Static-BM_App',
     },
     {
-        id: 4,
+        id: 3,
         title: 'TO-DO List App',
         description: "Developed a todo list web application utilizing React.js, JavaScript, and CSS. The project emphasizes efficient task management, enabling users to add, remove, and edit tasks with seamless accessibility. Tasks are stored locally, providing persistence across sessions for enhanced user experience.",
-        image: BM_App,
+        image: Todo_App,
         tags: [ 'JavaScript', 'CSS', 'React.js', 'Node.js', ],
         demo: 'https://abdu1-moiz-tm.netlify.app/',
         repository: 'https://github.com/AbdulMoiz961/todo-list',
