@@ -6,7 +6,7 @@ import { HeaderImg } from '../../assets'
 import './home.css'
 
 const DownloadButton = () => {
-  const downloadLink = "https://github.com/AbdulMoiz961/Academic-Portfolio/files/13942486/CV.pdf";
+  const downloadLink = "https://github.com/AbdulMoiz961/Academic-Portfolio/releases/download/Resources/CV.pdf";
 
   const handleDownload = () => {
     window.open(downloadLink, "_blank");
